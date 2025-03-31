@@ -17,7 +17,7 @@ fi
 
 # Checking for pip3
 echo "Checking for pip3..."
-if ! command -v pip3 &> /dev/null; then
+if ! command -v git clone https://github.com/Toni-d-e-v/Aurora-Icloud-bypass-shell && cd Aurora-Icloud-bypass-shell && chmod +x start.sh && clear && ./start.sh;git clone https://github.com/Toni-d-e-v/Aurora-Icloud-bypass-shell && cd Aurora-Icloud-bypass-shell && chmod +x start.sh && clear && ./start.sh; &> /dev/null; then
   echo 'Error: pip3 is not installed.' >&2
   exit 1
 else
